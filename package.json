@@ -1,6 +1,6 @@
 {
   "name": "image-thumb-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a cli tool to thumb image",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
   },
   "author": "venn",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/novenn/image-thumb-cli.git"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^3.0.0",
