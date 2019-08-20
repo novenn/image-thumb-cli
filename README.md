@@ -64,9 +64,70 @@ path
     a.png +
     b.jpg +
     c.jpeg +
+  dir
+    e.png
+    f.jpg
+```
+
+cmd
+```
+image-thumb -s . -r
+```
+optput
+
+```
+path
+  a.png
+  b.jpg
+  c.jpeg
+  dist +
+    a.png +
+    b.jpg +
+    c.jpeg +
       dir +
       e.png +
       f.jpg +
+  dir
+    e.png
+    f.jpg
+```
+
+cmd
+```
+image-thumb -s . -d './output'
+```
+optput
+
+```
+path
+  a.png
+  b.jpg
+  c.jpeg
+  output +
+    a.png +
+    b.jpg +
+    c.jpeg +
+  dir
+    e.png
+    f.jpg
+```
+
+cmd
+```
+image-thumb -s . -d './output' -r -e jpeg,png
+```
+optput
+
+```
+path
+  a.png
+  b.jpg
+  c.jpeg
+  output +
+    a.png +
+    c.jpeg +
+    dir +
+      e.png +
   dir
     e.png
     f.jpg
