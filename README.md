@@ -19,4 +19,55 @@
 |-h, --help |输出帮助信息
 |-h, --help |output usage information
 
+>usage
+
+安装（install）
+
+```
+npm install image-thumb-cli -g
+```
+
+使用（usge）
+
+```
+cd path
+
+image-thumb -s ./ -d dist -q 70
+```
+
 >example
+
+加入我们有这么一个目录/path/，目录结构如下，接下来的所有例子默认在/path/下执行。
+
+```
+path
+  a.png
+  b.jpg
+  c.jpeg
+  dir
+    e.png
+    f.jpg
+```
+
+cmd
+```
+image-thumb -s .
+```
+optput
+
+```
+path
+  a.png
+  b.jpg
+  c.jpeg
+  dist +
+    a.png +
+    b.jpg +
+    c.jpeg +
+      dir +
+      e.png +
+      f.jpg +
+  dir
+    e.png
+    f.jpg
+```
