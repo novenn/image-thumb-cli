@@ -37,8 +37,9 @@ image-thumb -s ./ -d dist -q 70
 
 >example
 
-加入我们有这么一个目录/path/，目录结构如下，接下来的所有例子默认在/path/下执行。
 
+假如我们有这么一个目录/path/，目录结构如下，接下来的所有例子默认在/path/下执行
+If we have such a directory /path/, the directory structure is as follows, and all the following examples are executed by default under /path/.
 ```
 path
   a.png
