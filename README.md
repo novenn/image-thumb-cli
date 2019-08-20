@@ -1,6 +1,6 @@
 # image-thumb-cli
 
->image-thumb-cli是一个压缩图片命令行工具，在node环境下，直接运行命定对图片进行压缩。
+>image-thumb-cli是一个压缩图片命令行工具，直接运行命定对目标图片进行压缩（Image-thumb-cli is a command-line tool for compressing images, which directly runs the destiny to compress the target images)。
 
 |参数|描述|
 |-|-|
@@ -18,3 +18,5 @@
 |-e, --extname <extname> | limit extension name of image
 |-h, --help |输出帮助信息
 |-h, --help |output usage information
+
+>example
